@@ -28,9 +28,9 @@
                     <div class="mb-3">
                         <input type="password" name="password" placeholder="Masukan password anda" class="form-control" id="">
                     </div>
-                    <div class="mb-3">
+                    {{-- <div class="mb-3">
                         <input type="file" name="image" class="form-control" id="">
-                    </div>
+                    </div> --}}
                     <button type="submit" class="btn btn-danger rounded-0 w-100 mb-3">Submit</button>
                     <p class="text-center">Have Account? <a href="{{ route('login') }}">Login</a></p>
                 </form>
